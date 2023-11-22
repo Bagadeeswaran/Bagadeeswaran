@@ -1,0 +1,14 @@
+// Blinking LEDs Program for Arduino
+
+const int ledPin = 13; // Define the pin to which the LED is connected
+
+void setup() {
+  pinMode(ledPin, OUTPUT); // Set the LED pin as an output
+}Xô-Đức us
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // Turn on the LED
+  delay(1000); // Wait for 1 second
+  digitalWrite(ledPin, LOW); // Turn off the LED
+  delay(1000); // Wait for 1 second
+}
